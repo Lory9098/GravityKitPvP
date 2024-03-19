@@ -1,0 +1,68 @@
+DeathMessages:
+  KillerMessage: "&5Hai ucciso &7{target}"
+  VictimMessageKiller: "&5Sei stato ucciso da &7{killer}"
+  UnknownMessage: "&7{player} &5è morto"
+EloMessage: "&7Hai ricevuto &e&l{bounty}$&7 di taglia!"
+StreakMessage: "&e&l{player} è in una serie di {streak} uccisioni di fila!"
+Economy:
+  format: "%value%"
+  plural-name: "Coins"
+  singular-name: "Coin"
+  FailureMessage: "&c&lERRORE &cL' operazione non è andata a buon fine."
+  SuccessMessage: "&a&lSUCCESSO &aL'operazione è andata a buon fine."
+  NoMoney: "&c&lERRORE &cNon hai abbastanza soldi per comprare questo oggetto."
+  SuccessBuy: "&a&lSUCCESSO &aHai comprato l'oggetto: {item}&a!"
+  Money: "&bBilancio: &f{money}"
+Chat:
+  Enabled: true
+  Format: "&7[%kitpvp_kills%] {gang}%luckperms_prefix% &7{name} &8» &f{message}"
+Join:
+  Enabled: false
+  Format: ""
+
+General:
+  PlayerPing: "&7{name} ha &c{heart}❤"
+  GeneralMessage: "&b&lRunning GravityKitPvP Made with &c❤&b by &7NettyChannell"
+  ConfigReloaded: "&5&lKitPvP &7» &aConfig reloadato!"
+
+Abilities:
+  Usage: "&cUsa /ability <nome>"
+  NoPermission: "&cNon hai il permesso per ricevere questa abilità."
+  PlayerNotFound: "&cIl giocatore che hai scelto non è online."
+  NoAbility: "&cL'abilità che hai scelto non esiste."
+  Cooldown: "&cDevi aspettare ancora {time} per ricevere l'abilità."
+  Success: "&aHai ricevuto l'abilità {ability}!"
+  SuccessSender: "&aHai dato l'abilità {ability} a {player}!"
+
+SetStat:
+  Usage: "&cUsa /setstat <nome> <stat> <valore>"
+  PlayerNotFound: "&cIl giocatore che hai scelto non è online."
+  StatNotFound: "&cLa stat che hai scelto non esiste."
+  InvalidValue: "&cIl valore che hai scelto non è un intero."
+  Success: "&aHai settato la stat %stat% a %value% a %player%!"
+
+Punch:
+  Usage: "&cUsa /punch <horizontal|vertical> <value>"
+  invalid-horizontal-value: '&cInvalid horizontal value'
+  invalid-vertical-value: '&cInvalid vertical value'
+  horizontal-value-not-defined: '&cPlease define the horizontal value'
+  vertical-value-not-defined: '&cPlease define the vertical value'
+  command-usage: '&c/punch <horizontal/vertical> <value>'
+  success-horizontal: '&aHorizontal value updated'
+  success-vertical: '&aVertical value updated'
+
+CoinFlip:
+  Usage: "&cUsa /coinflip <amount>"
+  InvalidNumber: "&cDevi inserire un numero valido."
+  InvalidAmount: "&cL'importo deve essere maggiore di 0."
+  InventoryName: "&e&lCOINFLIP"
+  NotEnoughMoney: "&cNon hai abbastanza soldi."
+  TargetNotEnoughMoney: "&cIl giocatore non ha abbastanza soldi."
+  HeadName: "&e&l%player%"
+  HeadLore:
+    - ""
+    - "&e&lSCOMMETTI &7%amount%"
+    - ""
+    - "&e&lCLICCA PER SCOMMETTERE"
+  Won: "&aHai vinto %amount%$!"
+  Lost: "&cHai perso %amount%$!"

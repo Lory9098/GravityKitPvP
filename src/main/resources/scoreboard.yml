@@ -1,0 +1,18 @@
+CT-style: "&dCT: &f%ct%s"
+Galaxy-style: "&dGalassia: &f%kitpvp_galaxy%"
+
+Scoreboard:
+  Title: "&b&lKITPVP"
+  Lines:
+    - "&7%date%"
+    - ""
+    - "&dUccisioni: &f%kitpvp_kills%"
+    - "&dMorti: &f%kitpvp_deaths%"
+    - "&dStreak: &f%kitpvp_killStreak%"
+    - "%galaxy%"
+    - "&dBilancio: &f%kitpvp_coins%$"
+    - "&dTaglia: &l&e%kitpvp_bounty%$"
+    - "%ct%"
+    - "&dPing: &f%ping%"
+    - "    "
+    - "&aplay.gravitymc.it"

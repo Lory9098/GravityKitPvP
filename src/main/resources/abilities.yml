@@ -1,0 +1,88 @@
+Abilities:
+  Levitation:
+    Material: DIRT
+    Name: Levitation
+    Description:
+      - "Levitate your enemies!"
+    Cooldown: 10
+    Duration: 5
+    Damage: 0
+    Effects:
+    # - "LEVITATION:20:5" # name:duration:amplifier
+    Actions:
+      - "[LEVITATION] TARGET"
+
+    Sound: ENTITY_ENDERDRAGON_SHOOT
+    Message: "&aHai fatto lievitare il tuo avversario!"
+  AntiBuild:
+    Material: IRON_INGOT
+    Name: AntiBuild
+    Description:
+      - "Prevent your enemies from building!"
+    Duration: 20
+    Damage: 0
+    Effects:
+    Actions:
+      - "[ANTI_BUILD] TARGET"
+    Sound: ENTITY_ENDERDRAGON_SHOOT
+    Message: "&aHai bloccato la costruzione del tuo avversario!"
+  Rocket:
+    Material: FIREWORK
+    Name: Rocket
+    Description:
+      - "Mette il tuo avversario in orbita!"
+    Duration: 5
+    Damage: 0
+    Effects:
+    Actions:
+      - "[ROCKET] TARGET"
+    Sound: ENTITY_ENDERDRAGON_SHOOT
+    Message: "&aHai bloccato la costruzione del tuo avversario!"
+  FlashBang:
+    Material: BLAZE_ROD
+    Name: FlashBang
+    Description:
+      - "Rende il tuo avversario cieco!"
+    Duration: 5
+    Damage: 0
+    Effects:
+    Actions:
+      - "[BLIDNESS] TARGET"
+    Sound: ENTITY_ENDERDRAGON_SHOOT
+    Message: "&aHai bloccato la costruzione del tuo avversario!"
+  AntiMove:
+    Material: BONE
+    Name: AntiMove
+    Description:
+      - "Rende il tuo avversario immobile!"
+    Duration: 2
+    Damage: 0
+    Effects:
+    Actions:
+      - "[PARALYZED] TARGET"
+    Sound: ENTITY_ENDERDRAGON_SHOOT
+    Message: "&aHai bloccato il movimento del tuo avversario!"
+  ObsidianBreaker:
+    Material: DIAMOND_PICKAXE
+    Name: ObsidianBreaker
+    Description:
+      - "Ti da un piccone per distruggere l'ossidiana!"
+    Duration: 0
+    Damage: 0
+    Effects:
+    Actions:
+      - "[GIVE] TARGET"
+    Sound: ENTITY_ENDERDRAGON_SHOOT
+    Message: "&aHai bloccato la costruzione del tuo avversario!"
+  CobwebBreaker:
+    Material: SHEARS
+    Name: CobwebBreaker
+    Description:
+      - "Ti da una cesoia per distruggere le ragnatele!"
+    Duration: 0
+    Damage: 0
+    Effects:
+    Actions:
+      - "[GIVE] TARGET"
+    Sound: ENTITY_ENDERDRAGON_SHOOT
+    Message: "&aHai bloccato la costruzione del tuo avversario!"

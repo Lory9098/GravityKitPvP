@@ -1,0 +1,4 @@
+name: GravityKitPvP
+version: '${version}'
+main: it.gravitymc.gravitykitpvp.KitPvP
+api-version: '1.19'

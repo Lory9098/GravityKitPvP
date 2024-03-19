@@ -1,0 +1,14 @@
+Punch:
+  enabled: true
+  horizontal: 0.9
+  vertical: 0.42
+
+Spawn: ""
+Mongo:
+  Host: "127.0.0.1"
+  Port: 27017
+  Database: "kitpvp"
+  Authentication:
+    Enabled: true
+    Username: "kitpvp"
+    Password: "7x~6b,;ku6C8N1]Rah|a"
